@@ -3,6 +3,7 @@ body{
 }
 
 @media(max-width: 940px){
+
   .content{
     padding: 20px;
   }
