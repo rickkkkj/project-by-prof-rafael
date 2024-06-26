@@ -1,0 +1,37 @@
+body{
+  background-color: rgb(233, 233, 225);
+}
+
+@media(max-width: 740px){
+  body {
+    background-color: rgb(240, 240, 213);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+  }
+  
+  .content{
+    flex: 0.8;
+  }
+
+  .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(82, 45, 20, 0.2);  
+    padding: 10px 0px;
+  }
+
+  .navbar i{
+    color: black;
+    font-size: 25px;
+  }
+
+  .navbar a{
+    text-decoration: none;
+    padding: 14px 20px;
+  }
+}
