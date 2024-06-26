@@ -1,0 +1,41 @@
+body{
+  background-color: rgb(233, 233, 225);
+}
+
+@media(max-width: 940px){
+  .content{
+    padding: 20px;
+  }
+  
+  .text h1{
+    text-align: center;
+    
+  }
+
+  .text p{
+    text-align: justify;  
+  }
+
+  .acessar{
+    text-align: center !important;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+
+  .text a{
+    color: rgba(156, 156, 156, 0.7);
+    text-decoration: none;
+  }
+
+  .videos{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .videos iframe{
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+}
