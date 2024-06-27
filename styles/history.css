@@ -29,12 +29,15 @@ body{
     left: 50%;    
   }
 
+  .acessar{
+    
+  }
 
   .text h1, p, h2{
     text-shadow: 2px 2px 4px rgba(255, 255, 0, 0.1);
     margin-right: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: underline;
+    text-decoration: underline !important;
     font-weight: bolder;
     text-align: justify;
     color: #ffffff;
