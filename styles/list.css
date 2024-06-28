@@ -64,7 +64,7 @@ body{
     .lineup th, td {
         background-color: #f2f2f2;
     }
-
+}
 @media(max-width: 940px){
     body {
         background-color: rgb(255, 255, 255);
